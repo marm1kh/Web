@@ -223,5 +223,32 @@ No media query for `xs` since this is the default in Bootstrap*/
     .container{
         width: 90%;
     }
+
+    .main_block {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .blocks {
+        width: 40%;
+    }
+
+    .main_title_1 {
+        margin-bottom: 24.9px;
+    }
+
+    .form_cells {
+        width: 90%;
+    }
+
+    .form_btn {
+        width: 92%;
+    }
+
+    .blocks img {
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
 }
 
