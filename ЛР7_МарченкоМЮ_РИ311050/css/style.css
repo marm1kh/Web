@@ -1,0 +1,59 @@
+body {
+    background: #25274D;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container {
+    background-color:  #464866;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px; 
+}
+
+h1 {
+   font-size: 42px;
+   margin-bottom: 0px;
+}
+
+.info {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.form {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.answerField {
+    width: 90px;
+    height: 28px;
+}
+
+.answerSubmit {
+    width: 100px;
+    height: 36px;
+    padding: 0px;
+    margin: 0px;
+    background-color: #25274D;
+    font-weight: 700;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.numTries {
+    font-size: 20px;
+    font-weight: 500;
+}
