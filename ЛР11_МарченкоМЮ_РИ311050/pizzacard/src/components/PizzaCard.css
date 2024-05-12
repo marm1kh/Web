@@ -1,0 +1,104 @@
+.PizzaCard {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 404px;
+    height: 600px;
+}
+
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 400px;
+    height: 600px;    
+}
+
+.pizza_img {
+    border-radius: 20px 0px 0px;
+    max-width: 100%;
+    max-height: 300px;
+}
+
+.bestseller {
+    font-size: 16px;
+    position: absolute;
+    background-color: orange;
+    color: white;
+    top: 15%;
+    margin-top: 50px;
+    width: 90px;
+    text-align: center; 
+}
+
+.title {
+    font-size: 27px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.description {
+    margin-left: 25px;
+    color: rgb(0,0,0,0.5);
+}
+
+.sizeSelect {
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 150px;
+    font-size: 16px;
+    padding: 8px;
+    color: rgb(0,0,0,0.5);
+    border-radius: 6px; 
+}
+
+.price {
+    font-size: 27px;
+    margin-left: 25px;
+    font-weight: 500;
+    margin-top: 8px;    
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    margin-top: 8px;     
+}
+
+.btn {
+    width: 45px;
+    height: 34px;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 2px;
+}
+
+.count {
+    width: 60px;
+    height: 34px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(0,0,0,0.5);  
+    font-weight: 500; 
+}
+
+.cartImage {
+    height: 34px;
+    width: 45px;
+    border-radius: 6px;
+    width: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: green;
+    margin-left: 3px;
+}
+
+.img_btn {
+    height: 30px;
+    width: 45px;
+    border-radius: 6px;
+    margin-left: 2px;
+}
+
