@@ -14,11 +14,8 @@
   list-style: none;
   display: flex;
   padding: 0px;
+  gap: 40px;
 }
-  
-/* .header li {
-  margin-left: 3rem;
-} */
   
 .header a {
   text-decoration: none;
